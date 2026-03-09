@@ -1,0 +1,34 @@
+# Jonas Flora | Desenvolvedor FullStack
+
+_🔗 [Visite o projeto online](https://portifolio-jonas-flora.vercel.app/)_
+
+## 💻 Sobre o Projeto
+
+Este é o meu portfólio pessoal, desenvolvido para apresentar minha trajetória, experiências e projetos como Desenvolvedor FullStack. O foco principal na construção desta interface foi combinar uma arquitetura moderna com uma experiência de usuário (UX) fluida e altamente interativa.
+
+### ✨ Destaques da Interface
+
+- **Scroll Suave & Animações:** Implementação premium do `GSAP ScrollSmoother` e `ScrollTrigger` para animações baseadas em rolagem de alta performance.
+- **Tematização Avançada (Dark/Light Mode):** Sistema de temas customizado com transições suaves (Tema Claro em Azul Safira e Tema Escuro em Roxo Vibrante), persistido no `localStorage`.
+- **Design Responsivo:** Layout adaptável para qualquer tamanho de tela, garantindo legibilidade e estética em dispositivos móveis e desktops.
+
+---
+
+## 🛠️ Tecnologias Utilizadas no Portfólio
+
+- **[Next.js](https://nextjs.org/)** - Framework React (App Router / Client Components)
+- **[React](https://reactjs.org/)** - Biblioteca de interfaces
+- **[GSAP](https://gsap.com/)** - Core de animações e manipulação de DOM (`@gsap/react`)
+- **[Lucide React](https://lucide.dev/)** - Ícones SVG limpos e consistentes
+- **CSS Customizado** - Utilização de variáveis CSS nativas para controle dinâmico de temas sem dependências pesadas.
+
+---
+
+## 🚀 Minha Stack & Especialidades
+
+Como desenvolvedor, meu foco é construir soluções escaláveis e otimizadas. Minhas principais áreas de atuação incluem:
+
+- **Arquiteturas Modernas:** Micro-frontends (Single-SPA), Micro-SaaS.
+- **Otimização de Backend:** Processamento assíncrono e Background Jobs com Redis e Bull.
+- **Modernização de Sistemas:** Integração de interfaces reativas (Next.js/React) consumindo APIs de sistemas legados (PHP/SQL Server).
+- **Infraestrutura e Deploy:** Configuração de Proxy Reverso (Apache/Nginx) e ambientes containerizados com Docker.
