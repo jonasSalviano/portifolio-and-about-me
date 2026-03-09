@@ -151,12 +151,12 @@ export default function Portfolio() {
 
   const personalInfo = {
     name: "Jonas Flora",
-    role: "Chapter Leader & FullStack",
+    role: "Desenvolvedor FullStack",
     location: "Galeão, Rio de Janeiro - RJ",
     email: "jonasalmeida49@gmail.com",
     linkedin: "https://linkedin.com/in/jonas-flora",
     about:
-      "Desenvolvedor FullStack e Chapter Leader de Frontend. Focado em construir soluções escaláveis com Next.js e na complexa integração de microsserviços e micro-frontends. Atuo como a principal referência técnica em CI/CD da equipe, liderando a criação de pipelines e a infraestrutura de deploy.",
+      "Desenvolvedor FullStack focado em construir soluções escaláveis. Tenho experiência avançada em arquiteturas modernas (Micro-frontends, Micro-SaaS) e infraestrutura de deploy, além de forte base em PHP e Node.js.",
   };
 
   const skills = [
@@ -172,7 +172,6 @@ export default function Portfolio() {
     "Oracle",
     "Apache & Nginx",
     "Docker",
-    "Azure DevOps (CI/CD)",
   ];
 
   const impacts = [
@@ -198,13 +197,6 @@ export default function Portfolio() {
       icon: <Server size={24} />,
     },
     {
-      title: "Cultura de CI/CD & Infraestrutura",
-      result: "Deploys automatizados e equipe capacitada.",
-      description:
-        "Referência técnica na criação de pipelines. Conduzi um workshop interno de Azure DevOps para padronizar as entregas do time, além de orquestrar aplicações em contêineres e proxy reverso.",
-      icon: <Server size={24} />,
-    },
-    {
       title: "Modernização de Legado",
       result: "Melhoria na experiência do usuário.",
       description:
@@ -226,20 +218,11 @@ export default function Portfolio() {
   const experiences = [
     {
       company: "SESA - Sesatech",
-      role: "Chapter Leader Frontend & Dev FullStack",
+      role: "Desenvolvedor FullStack",
       period: "06/2023 - Atual",
       description:
         "Atuação estratégica na arquitetura de Micro-frontends com Single-SPA, desenvolvendo bibliotecas de componentes compartilhados. Responsável também pela infraestrutura de deploy, incluindo configuração de Proxy Reverso (Apache) e otimização de servidores para aplicações Next.js e Node.js.",
-      tags: [
-        "Micro-serviços",
-        "React (Single-SPA e Next.Js)",
-        "Apache",
-        "DevOps",
-        "Node",
-        "Express",
-        "CI/CD",
-        "Azure",
-      ],
+      tags: ["Micro-frontends", "Single-SPA", "Apache", "DevOps"],
     },
     {
       company: "NTL - Nova Tecnologia LTDA",
@@ -247,7 +230,7 @@ export default function Portfolio() {
       period: "07/2022 - 06/2023",
       description:
         "Criação de sistemas em PHP (MVC) e SQL Server. Utilização de Bootstrap para responsividade e foco em lógica de programação para soluções eficientes.",
-      tags: ["Backend", "MVC", "SQL Server", "Frontend", "PHP"],
+      tags: ["Backend", "MVC", "SQL Server"],
     },
     {
       company: "NTL - Nova Tecnologia LTDA",
@@ -255,7 +238,7 @@ export default function Portfolio() {
       period: "06/2021 - 07/2022",
       description:
         "Início da trajetória como programador, adquirindo experiência prática em diversas tecnologias e desenvolvendo competências de trabalho em equipe.",
-      tags: ["Backend", "MVC", "SQL Server", "Frontend", "PHP"],
+      tags: ["Aprendizado", "Web"],
     },
   ];
 
