@@ -23,6 +23,7 @@ import {
   Download,
   Sun,
   Moon,
+  Github,
 } from "lucide-react";
 
 if (typeof window !== "undefined") {
@@ -154,7 +155,8 @@ export default function Portfolio() {
     role: "Chapter Leader & FullStack",
     location: "Galeão, Rio de Janeiro - RJ",
     email: "jonasalmeida49@gmail.com",
-    linkedin: "https://linkedin.com/in/jonas-flora",
+    linkedin: "https://www.linkedin.com/in/jonasflora/",
+    github: "https://github.com/jonasSalviano",
     about:
       "Desenvolvedor FullStack e Chapter Leader de Frontend. Focado em construir soluções escaláveis com Next.js e na complexa integração de microsserviços e micro-frontends. Atuo como a principal referência técnica em CI/CD da equipe, liderando a criação de pipelines e a infraestrutura de deploy.",
   };
@@ -350,6 +352,15 @@ export default function Portfolio() {
                     >
                       <Download size={20} />
                       Currículo
+                    </a>
+                    <a
+                      href={personalInfo.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-primary"
+                    >
+                      <Github size={20} />
+                      GitHub
                     </a>
                   </div>
                 </div>
